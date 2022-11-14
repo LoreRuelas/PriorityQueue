@@ -91,3 +91,8 @@ void print(PriorityQueue *pq)
         printf(" Priority = %d\n", (int)pq->Array[i].priority);
     }
 }
+
+int p_queue_empty(PriorityQueue *pq)
+{
+    return (pq -> size == -1);
+}
