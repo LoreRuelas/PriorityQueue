@@ -12,10 +12,8 @@ typedef struct priorityQueue PriorityQueue;
 PriorityQueue* p_queue_new();
 void p_queue_enqueue(PriorityQueue *pq, void* data, int priority);
 void print(PriorityQueue *pq);
-/*
-PriorityQueue* p_queue_new();
-void p_queue_enqueue(PriorityQueue *pq, void* data, int priority);
-void *p_queue_dequeue(PriorityQueue);
 int p_queue_empty(PriorityQueue *pq);
+/*
+ * void *p_queue_dequeue(PriorityQueue);
 */
 #endif //PRIORITYQUEUE_PRIORITYQUEUE_H
